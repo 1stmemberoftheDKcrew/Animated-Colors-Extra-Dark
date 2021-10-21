@@ -2,7 +2,7 @@
  * A minimal dark theme with animated color-changing highlights.
  *
  * @file   Controls the theme and animation.
- * @author Jennifer Lu
+ * @author Jennifer Lu (changes by DKcrew)
  * @since  1.0
  * @see    {@link https://github.com/jennifer-lu/Animated-Colors-Super-Dark}
  */
@@ -139,19 +139,19 @@ function updateTheme()
       icons: "rgba(255, 255, 255, 0.6)",
       icons_attention: colors[colorNumber],
 
-      frame: "rgb(0, 0, 0)",
-      frame_inactive: "rgb(0, 0, 0)",
+      frame: "rgb(20, 20, 20)",
+      frame_inactive: "rgb(20, 20, 20)",
 
-      ntp_background: "rgb(0, 0, 0)",
+      ntp_background: "rgb(20, 20, 20)",
       ntp_text: "rgba(255, 255, 255, 0.8)",
 
-      popup: "rgba(0, 0, 0, 0.8)",
+      popup: "rgba(20, 20, 20, 0.8)",
       popup_border: "rgba(255, 255, 255, 0)",
       popup_highlight: highlightColors[colorNumber],
       popup_highlight_text: "rgb(255, 255, 255)",
       popup_text: "rgb(255, 255, 255)",
 
-      sidebar: "rgba(0, 0, 0, 0.8)",
+      sidebar: "rgba(20, 20, 20, 0.8)",
       sidebar_border: "rgba(255, 255, 255, 0)",
       sidebar_highlight: "rgba(255, 255, 255, 0.3)",
       sidebar_highlight_text: "rgb(255, 255, 255)",
@@ -161,15 +161,15 @@ function updateTheme()
       tab_background_text: "rgba(255, 255, 255, 0.7)",
       tab_line: colors[colorNumber],
       tab_loading: "rgba(255, 255, 255, 0.8)",
-      tab_selected: "rgba(0, 0, 0, 1)",
+      tab_selected: "rgba(20, 20, 20, 1)",
       tab_text: "rgb(255, 255, 255)",
 
-      toolbar: "rgba(0, 0, 0, 1)",
-      toolbar_bottom_separator: "rgba(0, 0, 0, 0)",
-      toolbar_field: "rgba(0, 0, 0, 0)",
+      toolbar: "rgba(20, 20, 20, 1)",
+      toolbar_bottom_separator: "rgba(20, 20, 20, 0)",
+      toolbar_field: "rgba(20, 20, 20, 0)",
       toolbar_field_border: "rgba(255, 255, 255, 0)",
       toolbar_field_border_focus: "rgba(255, 255, 255, 0)",
-      toolbar_field_focus: "rgba(0, 0, 0, 0.8)",
+      toolbar_field_focus: "rgba(20, 20, 20, 0.8)",
       toolbar_field_highlight: "rgba(255, 255, 255, 0.3)",
       toolbar_field_highlight_text: "rgba(255, 255, 255, 1)",
       toolbar_field_separator: "rgba(255, 255, 255, 0)",
