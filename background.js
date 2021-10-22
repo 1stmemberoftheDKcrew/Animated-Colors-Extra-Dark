@@ -2,9 +2,9 @@
  * A minimal dark theme with animated color-changing highlights.
  *
  * @file   Controls the theme and animation.
- * @author Jennifer Lu (changes by DKcrew)
+ * @author Wade D
  * @since  1.0
- * @see    {@link https://github.com/jennifer-lu/Animated-Colors-Super-Dark}
+ * @see    {@link https://github.com/1stmemberoftheDKcrew/Animated-Colors-Extra-Dark}
  */
 
 /**
@@ -131,53 +131,78 @@ function updateTheme()
   {
     colors:
     {
-      bookmark_text: "rgb(255, 255, 255)",
-
-      button_background_active: "rgba(255, 255, 255, 0.2)",
-      button_background_hover: "rgba(255, 255, 255, 0.1)",
-
-      icons: "rgba(255, 255, 255, 0.6)",
       icons_attention: colors[colorNumber],
-
-      frame: "rgb(20, 20, 20)",
-      frame_inactive: "rgb(20, 20, 20)",
-
-      ntp_background: "rgb(20, 20, 20)",
-      ntp_text: "rgba(255, 255, 255, 0.8)",
-
-      popup: "rgba(20, 20, 20, 0.8)",
-      popup_border: "rgba(255, 255, 255, 0)",
       popup_highlight: highlightColors[colorNumber],
-      popup_highlight_text: "rgb(255, 255, 255)",
-      popup_text: "rgb(255, 255, 255)",
-
-      sidebar: "rgba(20, 20, 20, 0.8)",
-      sidebar_border: "rgba(255, 255, 255, 0)",
-      sidebar_highlight: "rgba(255, 255, 255, 0.3)",
-      sidebar_highlight_text: "rgb(255, 255, 255)",
-      sidebar_text: "rgb(255, 255, 255)",
-
-      tab_background_separator: "rgba(255, 255, 255, 0)",
-      tab_background_text: "rgba(255, 255, 255, 0.7)",
       tab_line: colors[colorNumber],
-      tab_loading: "rgba(255, 255, 255, 0.8)",
-      tab_selected: "rgba(20, 20, 20, 1)",
-      tab_text: "rgb(255, 255, 255)",
-
-      toolbar: "rgba(20, 20, 20, 1)",
-      toolbar_bottom_separator: "rgba(20, 20, 20, 0)",
-      toolbar_field: "rgba(20, 20, 20, 0)",
-      toolbar_field_border: "rgba(255, 255, 255, 0)",
-      toolbar_field_border_focus: "rgba(255, 255, 255, 0)",
-      toolbar_field_focus: "rgba(20, 20, 20, 0.8)",
-      toolbar_field_highlight: "rgba(255, 255, 255, 0.3)",
-      toolbar_field_highlight_text: "rgba(255, 255, 255, 1)",
-      toolbar_field_separator: "rgba(255, 255, 255, 0)",
       toolbar_field_text: colors[colorNumber],
       toolbar_field_text_focus: colors[colorNumber],
-      toolbar_text: "rgb(255, 255, 255)",
-      toolbar_top_separator: "rgba(255, 255, 255, 0)",
-      toolbar_vertical_separator: "rgba(255, 255, 255, 0)"
+      popup_border: colors[colorNumber],
+
+      tab_background_separator: highlightColors[colorNumber],
+
+      ////bookmark_text: "rgb(255, 255, 255)",
+
+      //button_background_active: "rgba(255, 255, 255, 0.2)",
+      //button_background_hover: "rgba(255, 255, 255, 0.1)",
+
+      icons: "rgba(255, 255, 255, 0.6)",
+      ////frame: "rgb(20, 20, 20)",
+      //frame_inactive: "rgb(20, 20, 20)",
+
+      //ntp_background: "rgb(20, 20, 20)",
+      //ntp_text: "rgba(255, 255, 255, 0.8)",
+
+      ////popup: "rgba(20, 20, 20, 0.8)",
+      
+      
+      //popup_highlight_text: "rgb(255, 255, 255)",
+      //popup_text: "rgb(255, 255, 255)",
+
+      sidebar: "rgba(42, 42, 42, 0.6)",
+      sidebar_border: "rgba(255, 255, 255, 0)",
+      //sidebar_highlight: highlightColors[colorNumber],
+      //sidebar_highlight_text: colors[colorNumber],
+      sidebar_text: "rgb(216, 214, 215)",
+
+      
+      ////tab_background_text: "rgba(255, 255, 255, 0.7)",
+      
+      //tab_loading: "rgba(255, 255, 255, 0.8)",
+      //tab_selected: "rgba(20, 20, 20, 1)",
+      //tab_text: "rgb(255, 255, 255)",
+
+      ////toolbar: "rgba(20, 20, 20, 1)",
+      //toolbar_bottom_separator: "rgba(20, 20, 20, 1)",
+      ////toolbar_field: "rgba(20, 20, 20, 0)",
+      //toolbar_field_border: "rgba(255, 255, 255, 0)",
+      //toolbar_field_border_focus: "rgba(255, 255, 255, 0)",
+      //toolbar_field_focus: "rgba(20, 20, 20, 0.8)",
+      //toolbar_field_highlight: "rgba(255, 255, 255, 0.3)",
+      //toolbar_field_highlight_text: "rgba(255, 255, 255, 1)",
+      //toolbar_field_separator: "rgba(255, 255, 255, 0)",
+      
+      //toolbar_text: "rgb(255, 255, 255)",
+      //toolbar_top_separator: "rgba(255, 255, 255, 0)",
+      //toolbar_vertical_separator: "rgba(255, 255, 255, 0)"
+
+
+
+
+
+
+      toolbar: "rgba(42, 42, 42, 0.6)",
+      toolbar_field: "rgba(30, 30, 32, 0.4)",
+      //toolbar_field_text: "rgb(214, 110, 152)",
+      //tab_line: "rgb(211, 144, 231)",
+      popup: "rgba(56, 56, 58, 0.8)",
+      popup_text: "rgb(229, 229, 231)",
+      tab_loading: "rgb(211, 144, 231)",
+      bookmark_text: "rgb(216, 214, 215)",
+      frame: "rgb(63, 62, 66)",
+      tab_background_text: "rgb(250, 247, 252)",
+
+
+      frame_inactive: "rgb(53, 52, 56)",
     }
   };
 
