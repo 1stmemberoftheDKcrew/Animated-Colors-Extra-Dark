@@ -142,7 +142,7 @@ function updateTheme()
 
       ////bookmark_text: "rgb(255, 255, 255)",
 
-      //button_background_active: "rgba(255, 255, 255, 0.2)",
+      button_background_active: highlightColors[colorNumber],
       //button_background_hover: "rgba(255, 255, 255, 0.1)",
 
       icons: "rgba(255, 255, 255, 0.6)",
@@ -182,7 +182,7 @@ function updateTheme()
       //toolbar_field_separator: "rgba(255, 255, 255, 0)",
       
       //toolbar_text: "rgb(255, 255, 255)",
-      //toolbar_top_separator: "rgba(255, 255, 255, 0)",
+      toolbar_top_separator: "rgba(25, 25, 25, 0.6)",
       //toolbar_vertical_separator: "rgba(255, 255, 255, 0)"
 
 
@@ -194,7 +194,7 @@ function updateTheme()
       toolbar_field: "rgba(30, 30, 32, 0.4)",
       //toolbar_field_text: "rgb(214, 110, 152)",
       //tab_line: "rgb(211, 144, 231)",
-      popup: "rgba(56, 56, 58, 0.8)",
+      popup: "rgba(56, 56, 58, 0.85)",
       popup_text: "rgb(229, 229, 231)",
       tab_loading: "rgb(211, 144, 231)",
       bookmark_text: "rgb(216, 214, 215)",
